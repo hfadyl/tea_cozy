@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+img.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.h_ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 18pt;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.h_ul > li{
+    padding: 15px;
+}
+
+.h_ul > li > a{
+    color: white;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#mission{
+    background: url(./images/background.webp);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mission{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mission > h2{
+    display: inline;
+    margin: 5px;
+}
+.samepic{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.featured_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured_title > h4{
+    margin-top: -5px;
+}
+
+.featured > .pics{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.featured_tea{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.featured2{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+#locations{
+    background-image: url(./images/locations-background.webp);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.location{
+    display: flex;
+    justify-content: center;
+
+}
+
+.location1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.downtown, .east, .oakdale{
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+   height: 200px;
+}
+
+.title_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.email, .phone{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    margin-left: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
